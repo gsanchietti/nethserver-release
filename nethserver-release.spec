@@ -34,6 +34,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc COPYING
 %config(noreplace) /etc/yum.repos.d/NethServer.repo
+%config(noreplace) /etc/yum.repos.d/NsReleaseLock.repo
 %dir %{_nseventsdir}/%{name}-update
 
 %changelog
